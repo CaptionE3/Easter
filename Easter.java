@@ -9,12 +9,14 @@ public class Easter{
         int y = scanner.nextInt(); // reads the next number the user types. 
         int a = y % 19;
         System.out.println("a = "+a);
-        int b = y % 100;
+        int b = y / 100;
         System.out.println("b = "+b);
-        int c = b % 4;
+        int c = y % 100;
         System.out.println("c = "+c);
-        int d =(b+8)/25;
-        System.out.println("d = "+d);
+        int f =(b+8)/25;
+        System.out.println("f = "+f);
+        int g = (b-f+1)/3;
+        System.out.println("g = "+g);
 
     }
 }
