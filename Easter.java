@@ -21,13 +21,13 @@ public class Easter{
         System.out.println("f = "+f);
         int g = (b-f+1)/3;
         System.out.println("g = "+g);
-        int h = (19*a+b-d-g+15)/30;
+        int h = (19*a+b-d-g+15)%30;
         System.out.println("h = "+h);
         int i = c/4;
         System.out.println("i = "+i);
         int k = c%4;
         System.out.println("k = "+k);
-        int r = (32+2*e+2*i-h-k)/7;
+        int r = (32+2*e+2*i-h-k)%7;
         System.out.println("r = "+r);
         int m = (a+11*h+22*r)/451;
         System.out.println("m = "+m);
